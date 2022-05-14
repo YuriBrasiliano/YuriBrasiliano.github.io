@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    scroll-behavior: smooth;}
+
+.menu ul li a{
+        text-align: center;
+        padding-bottom: 10%;
+        padding-top: 1%;
+        display: inline-block;
+        padding-left: 11%;
+        font-size: 20px;
+        color: rgb(84, 67, 235);
+        text-decoration: none;}
+.menu{max-width: 90%;}
+#apresentacao{
+    
+    animation: apre 4.5s normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;   
+    display: block;
+    font-size: 60px;
+    color: white;
+	white-space: nowrap;
+    overflow: hidden;
+    padding-bottom: 15%;}
+
+   #apresentacao u {color: rgb(84, 67, 235);}
+    
+    @keyframes apre{from{width: 0;}to{width: 100%;}}
+
+

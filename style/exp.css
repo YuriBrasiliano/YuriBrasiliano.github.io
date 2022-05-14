@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One");
+
+
+
+.timeline{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 700px;
+    position: relative;
+}
+
+.timeline_content-title{
+
+    font-weight: normal;
+    font-size: 66px;
+    margin: 50px 0 0 0;
+    padding: 0px;
+    font-family: "Pathway Gothic One", sans-serif;
+    color: rgba(84, 67, 235);
+}
+
+.timeline_content-desc{
+    margin: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+    color: rgb(255,255,255,1);
+    font-family: Cardo;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+.timeline::before{
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    content: "";
+    background: rgba(84, 67, 235);
+}
+
+.timeline-item{
+    margin-top: 100px;
+    padding-bottom: 30px;
+    opacity: 1;
+    margin-right: 10px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    width: calc(50% - 40px);
+    display: flex;
+    position: relative;
+    transform: translateY(-80px);
+}
+
+
+.timeline-item:nth-child(even){
+    align-self: flex-end;
+}
+
+
+
+.timeline_img{
+    max-width: 100%;
+    box-shadow: 0 10px 15px rgb(0, 0, 0);
+    }
+  
+    .timeline-header{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 80px;
+        position: relative;
+    }
+
+    .timeline-header_title{
+        color: #fff;
+        font-size: 46px;
+        font-family: Cardo;
+        font-weight: normal;
+        margin: 0;
+    }
+
+

@@ -1,0 +1,23 @@
+
+    #aboutapre{
+        margin-top: 100px;
+        
+    }
+    #aboutme{
+    padding-top: 3%;
+    padding-left: 2%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    font-size: 22px;
+    }
+   #aboutme a{
+    color: rgb(84, 67, 235);
+    text-decoration: none;
+    
+    }
+    #aboutmepic{
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 120px;
+    }

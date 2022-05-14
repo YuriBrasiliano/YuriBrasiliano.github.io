@@ -1,0 +1,23 @@
+﻿.certright img{
+float: right;
+padding-right: 20px;
+}
+.certright p {
+ padding-top: 5%;
+ width:40%;
+ color: white;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ float: left;
+ font-size: 22px;
+ padding-left: 20px;
+}
+.certleft img{
+float: left;
+padding-left: 20px;
+}
+.certleft p {
+color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    font-size: 22px;
+}
